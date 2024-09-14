@@ -1,0 +1,105 @@
+import styled from 'styled-components'
+
+export const Container = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
+export const TrendContainer = styled.div`
+  background-color: ${props => props.bgColor};
+  background-size: cover;
+  box-sizing: border-box;
+  width: 100%;
+`
+
+export const TrendBanner = styled.div`
+  background-color: ${props => props.bgColor};
+  height: 20vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`
+
+export const TrendIcon = styled.div`
+  height: 60px;
+  width: 60px;
+  background-color: ${props => props.bgColor};
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-left: 40px;
+`
+
+export const TrendHeading = styled.h1`
+  color: ${props => props.color};
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+`
+export const UnOrderList = styled.ul`
+  display: flex;
+  flex-direction: column;
+`
+
+export const ListItem = styled.li`
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+`
+
+export const ThumbnailImg = styled.img`
+  height: 150px;
+  width: 250px;
+`
+
+export const Description = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+`
+
+export const Heading = styled.p`
+  color: ${props => props.color};
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-top: 0px;
+`
+
+export const Para = styled.p`
+  color: ${props => props.color};
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 0px;
+`
+export const FailureImg = styled.img`
+  height: 300px;
+  width: 300px;
+`
+export const FailurePara = styled.h1`
+  color: ${props => props.color};
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+`
+
+export const FailureMsg = styled.p`
+  color: ${props => props.color};
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 0px;
+`
+export const FailureContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+`
